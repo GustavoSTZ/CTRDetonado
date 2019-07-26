@@ -1,0 +1,146 @@
+body {
+  font-family: "Crimson Text", "Times New Roman", serif;
+  background-color: #F2FFFC;
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+.cabecalho-principal {
+  /* background-color: #851944; */
+  background-image: url("../img/ctrflag.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  padding: 1.5rem;
+  border-bottom: .5rem solid black;
+  text-transform: uppercase;
+}
+
+
+.titulo-principal {
+  font-size: 3em;
+  text-shadow: 2px 2px #000;
+  color: #dda520;
+  font-family: 'Chewy', cursive;
+}
+
+h1 {
+  text-shadow: 2px 2px #000;
+}
+
+h2 {
+  font-size: 150%;
+  clear: both;
+}
+
+h1, h2 {
+    font-family: 'Chewy', cursive;
+}
+
+main p {
+  font-family: "Crimson Text", serif;
+  text-align: justify;
+  margin: 1em 0;
+}
+
+.navegacao-site {
+  background-color: #dda520;
+  color: #F2FFFC;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Chewy', cursive;
+}
+
+nav a {
+  color: #F2FFFC;
+  text-transform: lowercase;
+}
+
+main a {
+  color: #851944;
+}
+
+aside a {
+  color: inherit;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.texto-principal {
+  width: 36em;
+  margin: auto;
+  padding: 1.5em 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+aside h1 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.icones-redes-sociais li {
+  display: inline-block;
+}
+
+#rodape-pagina {
+  background-image: radial-gradient(ellipse at left bottom, rgba(20, 29, 312, 0.8), rgba(10, 39, 21, 0.8) 65%, black 65%, black 70%, transparent 70%, transparent);
+  width: 100%;
+  background-size: 25% 100%;
+  background-repeat: no-repeat;
+  color: #F2FFFC;
+  padding: 1em;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.icones-redes-sociais a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  color: transparent;
+  font-size: 0;
+}
+
+.linkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.github {
+  background-image: url(../img/github.png);
+}
+
+.youtube {
+  background-image: url(../img/youtube.png);
+}
+
+main {
+  float: left;
+  width: 85%;
+  padding-bottom: 4em;
+}
+
+.navegacao-site {
+  float: right;
+  box-sizing: border-box;
+  border-left: .5em solid black;
+  border-bottom: .5em solid black;
+}
+
+.navegacao-site {
+  width: 15%;
+  position: relative;
+}

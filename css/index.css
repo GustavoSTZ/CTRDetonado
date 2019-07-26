@@ -1,0 +1,230 @@
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  perspective: 6px;
+  perspective-origin: 50% 160px;
+}
+
+.titulo-principal {
+  font-size: 3em;
+  text-shadow: 2px 2px #000;
+  color: #dda520;
+  font-family: 'Chewy', cursive;
+}
+
+.subtitulo-principal {
+  font-size: 2em;
+  color: #dda520;
+  font-family: 'Chewy', cursive;
+}
+
+.foto-home {
+  height: 200px;
+}
+
+.secao-detonado {
+  background-image: url("../img/ctrwallpaper.jpeg");
+  padding: 14em;
+}
+
+.botao-index {
+  font-size: 1.25em;
+  background-color: #dda520;
+  color: #FFF;
+  padding: .5em;
+  border: .2em solid black;
+  width: 40ch;
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+}
+
+.botao-detonado {
+  position: absolute;
+  bottom: -5em;
+  left: 5em;
+}
+
+.secao-inicio {
+  padding: 2em;
+}
+
+.secao-inicio h2 {
+  font-size: 3em;
+  text-shadow: 2px 2px #000;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+.trabalhos {
+  background-color: #858585;
+  border-top: .5em solid #000;
+  border-bottom: .5em solid #000;
+}
+
+.trabalhos h2 {
+  color: #dda520;
+  font-family: 'Chewy', cursive;
+}
+
+.trabalhos ul {
+  overflow: hidden;
+  border: .5em solid black;
+}
+
+.trabalhos li {
+  float: left;
+  width: 33%;
+  border-right: .25em solid #000;
+}
+
+.trabalhos img {
+  width: 100%;
+  display: block;
+}
+
+.dicas {
+  background-color: #999;
+  color: #FFF;
+  border-bottom: .5em solid #851944;
+}
+
+.dicas small {
+  position: relative;
+  top: -2em;
+}
+
+.dicas li a {
+  color: #FCF;
+  padding: .5em;
+  display: block;
+}
+
+footer {
+  background-color: #000;
+  color: #FFF;
+  padding: 2em;
+}
+
+footer h2 {
+  font-size: 3em;
+}
+
+footer a {
+  color: #F99;
+}
+
+main {
+  width: 100%;
+  padding-bottom: 0;
+  float: none;
+}
+
+.palavra-home {
+  color: rgba(255, 127, 187, 0.5);
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+}
+
+header {
+  position: relative;
+}
+
+.dicas {
+  position: relative;
+}
+
+.dicas .mais-recente {
+  background-color: #F2FFFC;
+}
+
+.inicio-post {
+  background-color: #F2FFFC;
+  color: black;
+  position: absolute;
+  top: 4em;
+  left: 30%;
+  right: 4em;
+  padding: 1.5em;
+  height: 8em;
+}
+
+.dicas .mais-recente a {
+  color: #F26;
+}
+
+.dicas li {
+  width: 30%;
+}
+
+.banner-youtube {
+  width: 14em;
+  line-height: 1;
+  padding: 1em 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  border: .25em solid gray;
+  font-size: 1em;
+  font-family: 'Chewy', cursive;
+}
+
+.banner-youtube {
+  /*
+  Na horizontal: cos(45) * (altura - largura) + largura = cos(45) *(3.5-14) + 14
+  altura= já que as bordas somam 0.5em, o texto tem 1em de altura e temos mais 1em de padding em cima e abaixo do texto = 3.5
+
+  Na vertical: -1 * sen(45) * altura
+  */
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform-origin: 0 0;
+  transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+
+.palavras-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.palavras-home, .titulo-principal {
+  transform-style: preserve-3d;
+}
+
+.trabalhos {
+  background-image: linear-gradient(135deg,
+    transparent,
+    transparent 14px,
+    rgba(0, 0, 0, 0.1) 14px,
+    rgba(0, 0, 0, 0.1) 15px,
+    transparent 15px,
+    transparent);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+}
+
+.dicas {
+  background-image: linear-gradient(45deg,
+    transparent,
+    transparent 14px,
+    rgba(255, 255, 255, 0.1) 14px,
+    rgba(255, 255, 255, 0.1) 15px,
+    transparent 15px,
+    transparent);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  background-color: #123860;
+}
+
+.dicas h2{
+  font-family: 'Chewy', cursive;
+}
