@@ -12,7 +12,6 @@ body {
   background-size: cover;
   text-align: center;
   color: #FFF;
-  padding: 1.5rem;
   border-bottom: .5rem solid black;
   text-transform: uppercase;
 }
@@ -69,7 +68,6 @@ aside a {
 .texto-principal {
   width: 36em;
   margin: auto;
-  padding: 1.5em 0;
 }
 
 ul {
@@ -130,7 +128,6 @@ em {
 main {
   float: left;
   width: 85%;
-  padding-bottom: 4em;
 }
 
 .navegacao-site {

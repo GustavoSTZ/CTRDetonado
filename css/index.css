@@ -43,9 +43,8 @@ body {
 }
 
 .botao-detonado {
-  position: absolute;
-  bottom: -5em;
-  left: 5em;
+  position: relative;
+  bottom: -10em;
 }
 
 .secao-inicio {
@@ -72,11 +71,12 @@ body {
 
 .trabalhos ul {
   overflow: hidden;
+  display: inline-flex;
+  background-color:black;
   border: .5em solid black;
 }
 
 .trabalhos li {
-  float: left;
   width: 33%;
   border-right: .25em solid #000;
 }
